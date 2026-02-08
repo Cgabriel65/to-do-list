@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do List</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+     <!--font do google fonts, Montserrat e Roboto com vários weights-->
+    <script src="script.js" defer></script>  <!-- defer deixa html carregar completamente antes de correr JS, para evitar erros -->
 </head>
 <body>
     <header>
@@ -15,7 +17,7 @@
     <main>
         <form id="taskForm">   <!-- formulario para adicionar nova tarefa-->
             <input type="text" id="taskInput" placeholder="Write new task..." required>
-            <button type="submit">Add Task</button> <!--butao dentro do forma com tipo submit envia formulario-->
+            <button type="submit" id="buttonAdd">Add Task</button> <!--butao dentro do form, com tipo submit envia formulario. Permite dar submit com Enter -->
 
         </form>
 
